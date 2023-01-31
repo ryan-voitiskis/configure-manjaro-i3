@@ -1,0 +1,77 @@
+Xft.dpi:       160
+Xft.antialias: true
+Xft.hinting:   true
+Xft.rgba:      rgb
+Xft.autohint:  false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+
+*background:                      #1d2528
+*foreground:                      #273136
+*fading:                          8
+*fadeColor:                       black
+*cursorColor:                     #a2e57b
+*pointerColorBackground:          #2B2C2B
+*pointerColorForeground:          #87df7b
+
+!! black dark/light
+*color0:                          #273136
+*color8:                          #585858
+
+!! red dark/light
+*color1:                          #ff6d7e
+*color9:                          #ff6d7e
+
+!! green dark/light
+*color2:                          #b8c4c3
+*color10:                         #b8c4c3
+
+!! yellow dark/light
+*color3:                          #ffed66
+*color11:                         #ffed66
+
+!! blue dark/light
+*color4:                          #7cd5f1
+*color12:                         #7cd5f1
+
+!! magenta dark/light
+*color5:                          #b5a0f8
+*color13:                         #b5a0f8
+
+!! green dark/light
+*color6:                          #a2e57b
+*color14:                         #a2e57b
+
+!! white dark/light
+*color7:                          #d8d8d8
+*color15:                         #f8f8f8
+
+Xcursor.theme: xcursor-breeze-snow
+Xcursor.size:                     32
+
+URxvt.font:xft:Monospace:pixelsize=28
+URxvt.boldfont:xft:Monospace-Bold:pixelsize=28
+
+URxvt.depth:                      32
+URxvt.background:                 [100]#273136
+URxvt*scrollBar:                  false
+URxvt*mouseWheelScrollPage:       false
+URxvt*cursorBlink:                true
+URxvt*background:                 black
+URxvt*foreground:                 grey
+URxvt*saveLines:                  5000
+URxvt.geometry:                   400x400
+
+! Normal copy-paste keybindings without perls
+URxvt.iso14755:                   false
+URxvt.keysym.Shift-Control-V:     eval:paste_clipboard
+URxvt.keysym.Shift-Control-C:     eval:selection_to_clipboard
+!Xterm escape codes, word by word movement
+URxvt.keysym.Control-Left:        \033[1;5D
+URxvt.keysym.Shift-Control-Left:  \033[1;6D
+URxvt.keysym.Control-Right:       \033[1;5C
+URxvt.keysym.Shift-Control-Right: \033[1;6C
+URxvt.keysym.Control-Up:          \033[1;5A
+URxvt.keysym.Shift-Control-Up:    \033[1;6A
+URxvt.keysym.Control-Down:        \033[1;5B
+URxvt.keysym.Shift-Control-Down:  \033[1;6B
