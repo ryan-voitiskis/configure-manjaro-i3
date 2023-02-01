@@ -1,0 +1,23 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "ctrl+shift+space",
+    "command": "editor.action.sortLinesAscending"
+  },
+  {
+    "key": "ctrl+\\",
+    "command": "-workbench.action.splitEditor"
+  },
+  {
+    "key": "ctrl+shift+enter",
+    "command": "github.copilot.toggleCopilot"
+  },
+  {
+    "key": "ctrl+\\",
+    "command": "workbench.action.splitEditor"
+  },
+  {
+    "key": "ctrl+shift+'",
+    "command": "cSpell.toggleEnableSpellChecker"
+  }
+]
