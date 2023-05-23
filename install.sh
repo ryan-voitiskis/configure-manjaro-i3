@@ -17,7 +17,7 @@ pacman -S base-devel --noconfirm
 #enable aur
 sed -Ei '/EnableAUR/s/^#//' /etc/pamac.conf
 #install packages I use
-pacman -S adobe-source-code-pro-fonts audacious audacious-plugins btop btrfs-progs chromium coreutils curl deepin-screenshot filezilla firefox firefox-developer-edition flac gedit gimp git gparted gnome-tweak-tool grep inkscape keepassxc lxappearance mplayer nano nano-syntax-highlighting nodejs npm pavucontrol pulseaudio pulseaudio-alsa python ranger redshift rofi rsync rustup simplescreenrecorder terminus-font thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman transmission-gtk tree ttf-bitstream-vera ttf-nerd-fonts-symbols-2048-em ttf-nerd-fonts-symbols-common ttf-noto-nerd ttf-terminus-nerd unzip  vlc wget which yay zsh --noconfirm
+pacman -S adobe-source-code-pro-fonts audacious audacious-plugins btop btrfs-progs chromium coreutils curl deepin-screenshot feh filezilla firefox firefox-developer-edition flac gedit gimp git gparted gnome-tweak-tool grep inkscape keepassxc lxappearance mplayer nano nano-syntax-highlighting nodejs npm pavucontrol pulseaudio pulseaudio-alsa python ranger redshift rofi rsync rustup simplescreenrecorder terminus-font thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman transmission-gtk tree ttf-bitstream-vera ttf-nerd-fonts-symbols-2048-em ttf-nerd-fonts-symbols-common ttf-noto-nerd ttf-terminus-nerd unzip  vlc wget which yay zsh --noconfirm
 wait
 
 #setup rust
