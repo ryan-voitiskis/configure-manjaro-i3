@@ -51,7 +51,8 @@ wait
 cd ../
 
 #copy config files
-cp -r .config/.i3 /home/$username/.i3
+rm -r /home/$username/.config/.i3
+cp -r .config/.i3 /home/$username/.config/.i3
 cp .zshrc /home/$username/.zshrc
 cp .Xresources /home/$username/.Xresources
 cp .config/Code/keybindings.json /home/$username/.config/Code/User/keybindings.json
